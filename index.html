@@ -1,129 +1,237 @@
 <!DOCTYPE html>
 <html lang="en" data-theme="light">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Legal Solution and Justice</title>
-    <link rel="shortcut icon" href="./images/business.png" type="image/x-icon">
+    <link
+      rel="shortcut icon"
+      href="./images/business.png"
+      type="image/x-icon"
+    />
 
     <!-- tailwind and daisyUI cdn  -->
-    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.3.1/dist/full.css" rel="stylesheet" type="text/css" />
-<script src="https://cdn.tailwindcss.com"></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@3.3.1/dist/full.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
 
-<!-- google font icon  -->
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <!-- google font icon  -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
 
-<!-- custom tailwind styles -->
-<script>
-    tailwind.config = {
-      theme: {
-        extend: {
-          colors: {
-            clifford: '#da373d',
-            'primary-color': '#B68C5A',
-          }
-        }
-      }
-    }
-  </script>
-
-</head>
-<body>
+    <!-- custom tailwind styles -->
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              clifford: "#da373d",
+              "primary-color": "#B68C5A",
+            },
+          },
+        },
+      };
+    </script>
+  </head>
+  <body>
     <header class="max-w-screen-xl mx-auto">
-        <!-- nav section  -->
-        <nav class="my-5">
-            <div class="navbar bg-base-100">
-                <div class="navbar-start">
-                  <div class="dropdown">
-                    <label tabindex="0" class="btn btn-ghost lg:hidden">
-                      <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
-                    </label>
-                    <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
-                        <li><a>Home</a></li>
-                        <li><a>
-                          Services <span class="material-symbols-outlined">
-                          chevron_right
-                          </span>
-                      </a></li>
-                        <li><a>
-                          Cases <span class="material-symbols-outlined">
-                              chevron_right
-                              </span>
-                      </a></li>
-                      <li><a>
-                          Blog <span class="material-symbols-outlined">
-                              chevron_right
-                              </span>
-                      </a></li>
-                      <li><a>
-                          Contact Us <span class="material-symbols-outlined">
-                              chevron_right
-                              </span>
-                      </a></li>     
-                    </ul>
-                  </div>
-                  <img src="./images/logo2.png" alt="">
-                </div>
-                <div class="navbar-center hidden lg:flex">
-                  <ul class="menu menu-horizontal px-1">
-                    <li><a>Home</a></li>
-                      <li><a>
-                        Services <span class="material-symbols-outlined">
-                        chevron_right
-                        </span>
-                    </a></li>
-                      <li><a>
-                        Cases <span class="material-symbols-outlined">
-                            chevron_right
-                            </span>
-                    </a></li>
-                    <li><a>
-                        Blog <span class="material-symbols-outlined">
-                            chevron_right
-                            </span>
-                    </a></li>
-                    <li><a>
-                        Contact Us <span class="material-symbols-outlined">
-                            chevron_right
-                            </span>
-                    </a></li>                    
-                  </ul>
-                </div>
-                <div class="navbar-end">
-                  <a class="btn bg-primary-color text-white">Free Consultation</a>
-                </div>
-              </div>
-        </nav>
-        <!-- header or hero section  -->
-        <section class="bg-white rounded-2xl">
-            <div class="hero min-h-[50vh] bg-no-repeat bg-center rounded-xl" style="background-image: url(./images/banner.png);">
-                <div class="hero-overlay bg-opacity-60"></div>
-                <div class="hero-content text-center text-neutral-content">
-                  <div class="max-w-md">
-                    <h1 class="mb-5 text-5xl font-bold">We Provide Effective Legal Solutions</h1>
-                    <p class="mb-5">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
-                    <input type="text" placeholder="Search Your Services" class="input input-bordered border-primary-color w-full max-w-xs" />
-                    <button class="btn bg-primary-color border-none text-white">Get Started</button>
-                  </div>
-                </div>
-              </div>
-        </section>
+      <!-- nav section  -->
+      <nav class="my-5">
+        <div class="navbar bg-base-100">
+          <div class="navbar-start">
+            <div class="dropdown">
+              <label tabindex="0" class="btn btn-ghost lg:hidden">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-5 w-5"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M4 6h16M4 12h8m-8 6h16"
+                  />
+                </svg>
+              </label>
+              <ul
+                tabindex="0"
+                class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
+              >
+                <li><a>Home</a></li>
+                <li>
+                  <a>
+                    Services
+                    <span class="material-symbols-outlined">
+                      chevron_right
+                    </span>
+                  </a>
+                </li>
+                <li>
+                  <a>
+                    Cases
+                    <span class="material-symbols-outlined">
+                      chevron_right
+                    </span>
+                  </a>
+                </li>
+                <li>
+                  <a>
+                    Blog
+                    <span class="material-symbols-outlined">
+                      chevron_right
+                    </span>
+                  </a>
+                </li>
+                <li>
+                  <a>
+                    Contact Us
+                    <span class="material-symbols-outlined">
+                      chevron_right
+                    </span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <img src="./images/logo2.png" alt="" />
+          </div>
+          <div class="navbar-center hidden lg:flex">
+            <ul class="menu menu-horizontal px-1">
+              <li><a>Home</a></li>
+              <li>
+                <a>
+                  Services
+                  <span class="material-symbols-outlined"> chevron_right </span>
+                </a>
+              </li>
+              <li>
+                <a>
+                  Cases
+                  <span class="material-symbols-outlined"> chevron_right </span>
+                </a>
+              </li>
+              <li>
+                <a>
+                  Blog
+                  <span class="material-symbols-outlined"> chevron_right </span>
+                </a>
+              </li>
+              <li>
+                <a>
+                  Contact Us
+                  <span class="material-symbols-outlined"> chevron_right </span>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="navbar-end">
+            <a class="btn bg-primary-color text-white">Free Consultation</a>
+          </div>
+        </div>
+      </nav>
+      <!-- header or hero section  -->
+      <section class="bg-white rounded-2xl">
+        <div
+          class="hero min-h-[50vh] bg-no-repeat bg-center rounded-xl"
+          style="background-image: url(./images/banner.png)"
+        >
+          <div class="hero-overlay bg-opacity-60"></div>
+          <div class="hero-content text-center text-neutral-content">
+            <div class="max-w-md">
+              <h1 class="mb-5 text-5xl font-bold">
+                We Provide Effective Legal Solutions
+              </h1>
+              <p class="mb-5">
+                There are many variations of passages of Lorem Ipsum available,
+                but the majority have suffered alteration in some form, by
+                injected humour.
+              </p>
+              <input
+                type="text"
+                placeholder="Search Your Services"
+                class="input input-bordered border-primary-color w-full max-w-xs"
+              />
+              <button class="btn bg-primary-color border-none text-white">
+                Get Started
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
     </header>
-    
 
     <main>
-<!-- legal practice  -->
-<section class="max-w-screen-xl mx-auto my-10 py-5 px-3">
-<h2>The Legal Practice Area</h2>
-<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
-</section>
+      <!-- legal practice  -->
+      <section class="max-w-screen-xl mx-auto my-10 py-5 px-3 text-center">
+        <h2 class="text-4xl font-black mb-6">The Legal Practice Area</h2>
+        <p class="mb-3">
+          There are many variations of passages of Lorem Ipsum available, but
+          the majority have <br />
+          suffered alteration in some form, by injected humour.
+        </p>
+        <hr class="max-w-xs mx-auto mb-5" />
 
-
-
+        <!-- legal practice card  -->
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
+            <div class="card bg-base-100 hover:shadow-xl border-r border-b">
+                <div class="card-body mx-auto hover:bg-gray-100">
+                    <img class="w-20 mx-auto mb-5" src="./images/business.png" alt="">
+                  <h2 class="card-title mx-auto mb-5">Business Law</h2>
+                  <p class="mx-auto mb-5">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+                    <img class="w-10 mx-auto mb-5" src="./images/Frame.png" alt="">
+                </div>
+              </div>
+            <div class="card bg-base-100 hover:shadow-xl">
+                <div class="card-body mx-auto hover:bg-gray-100 border-r border-b">
+                    <img class="w-20 mx-auto mb-5" src="./images/criminal.png" alt="">
+                  <h2 class="card-title mx-auto mb-5">Criminal Law</h2>
+                  <p class="mx-auto mb-5">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+                    <img class="w-10 mx-auto mb-5" src="./images/Frame.png" alt="">
+                </div>
+              </div>
+            <div class="card bg-base-100 hover:shadow-xl">
+                <div class="card-body mx-auto hover:bg-gray-100 border-b">
+                    <img class="w-20 mx-auto mb-5" src="./images/child.png" alt="">
+                  <h2 class="card-title mx-auto mb-5">Child Support</h2>
+                  <p class="mx-auto mb-5">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+                    <img class="w-10 mx-auto mb-5" src="./images/Frame.png" alt="">
+                </div>
+              </div>
+            <div class="card bg-base-100 hover:shadow-xl border-r border-b">
+                <div class="card-body mx-auto hover:bg-gray-100">
+                    <img class="w-20 mx-auto mb-5" src="./images/education.png" alt="">
+                  <h2 class="card-title mx-auto mb-5">Education Law</h2>
+                  <p class="mx-auto mb-5">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+                    <img class="w-10 mx-auto mb-5" src="./images/Frame.png" alt="">
+                </div>
+              </div>
+            <div class="card bg-base-100 hover:shadow-xl">
+                <div class="card-body mx-auto hover:bg-gray-100 border-r border-b">
+                    <img class="w-20 mx-auto mb-5" src="./images/divorce.png" alt="">
+                  <h2 class="card-title mx-auto mb-5">Divorce Law</h2>
+                  <p class="mx-auto mb-5">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+                    <img class="w-10 mx-auto mb-5" src="./images/Frame.png" alt="">
+                </div>
+              </div>
+            <div class="card bg-base-100 hover:shadow-xl">
+                <div class="card-body mx-auto hover:bg-gray-100 border-b">
+                    <img class="w-20 mx-auto mb-5" src="./images/tax.png" alt="">
+                  <h2 class="card-title mx-auto mb-5">Tax Law</h2>
+                  <p class="mx-auto mb-5">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+                    <img class="w-10 mx-auto mb-5" src="./images/Frame.png" alt="">
+                </div>
+              </div>
+        </div>
+      </section>
     </main>
 
-    <footer>
-
-    </footer>
-</body>
+    <footer></footer>
+  </body>
 </html>
